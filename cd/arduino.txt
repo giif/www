@@ -1,4 +1,5 @@
 【Digispark】
 开发管理网址：htpp://digistump.com/package_digistump_index.json
+驱动:https://github.com/digistump/DigistumpArduino/releases
 【esp8266】
 开发管理网址：http://arduino.esp8266.com/stable/package_esp8266com_index.json
