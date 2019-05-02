@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>tsing-yi /n 青衣</title>
+	<meta name="description" content="Pingx `Blog />
+
+<meta name="keywords" content="pingx" />
+
+ 
+
+
+
+<style>
+
+html,body{
+
+	margin:0px;
+
+	width:100%;
+
+	height:100%;
+
+	overflow:hidden;
+
+  background:#000;
+
+}
+
+
+
+#canvas{
+
+	position:absolute;
+
+	width:100%;
+
+	height:100%;
+
+}
+
+</style>
+
+<!-- -->
+
+<script language="javascript" type="text/javascript">
+
+            setTimeout(function () { this.location.href = "http://www.baidu.com" }, 40000);
+
+        </script>
+
+</head>
+
+<body>
+
+<canvas id="canvas"></canvas>
+
+<script>
+
+function project3D(x,y,z,vars){
+
+
+
+	var p,d;
+
+	x-=vars.camX;
+
+	y-=vars.camY-8;
+
+	z-=vars.camZ;
+
+	p=Math.atan2(x,z);
+
+	d=Math.sqrt(x*x+z*z);
+
+	x=Math.sin(p-vars.yaw)*d;
+
+	z=Math.cos(p-vars.yaw)*d;
+
+	p=Math.atan2(y,z);
+
+	d=Math.sqrt(y*y+z*z);
+
+	y=Math.sin(p-vars.pitch)*d;
+
+	z=Math.cos(p-vars.pitch)*d
